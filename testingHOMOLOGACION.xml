@@ -1,0 +1,58 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite1" verbose="1">
+
+    <test name="Test1">
+        <classes>
+            <class name="GodoyCruz_NuevaActa_TransitoZebra_HOMO"/>
+            </classes>
+    </test>
+
+    <test name="Test2">
+        <classes>
+            <class name="GodoyCruz_NuevaActa_TransitoWeb_HOMO"/>
+        </classes>
+    </test>
+
+    <test name="Test3">
+        <classes>
+            <class name="GodoyCruz_NuevaActa_ObraZebra_HOMO"/>
+        </classes>
+    </test>
+
+
+    <test name="Test4">
+        <classes>
+            <class name="GodoyCruz_NuevaActa_ObrasWeb_HOMO"/>
+        </classes>
+    </test>
+
+
+    <test name="Test5">
+        <classes>
+            <class name="GodoyCruz_NuevaActa_AmbienteZebra_HOMO"/>
+        </classes>
+    </test>
+
+
+    <test name="Test6">
+        <classes>
+            <class name="GodoyCruz_NuevaActa_AmbienteWeb_HOMO"/>
+        </classes>
+    </test>
+
+
+    <test name="Test7">
+        <classes>
+            <class name="GodoyCruz_NuevaActa_FiscalizacionZebra_HOMO"/>
+        </classes>
+    </test>
+
+
+    <test name="Test8">
+        <classes>
+            <class name="GodoyCruz_NuevaActa_FiscalizacionWeb_HOMO"/>
+        </classes>
+    </test>
+
+    </suite>
